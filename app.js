@@ -19,7 +19,7 @@ var config = {
 };  
 var connection = new Connection(config);  
 connection.on('connect', function(err) {  
-// If no error, then good to proceed.  
+// If no error, then good to proceed.ץ
 	console.log("Connected");  
 });
 
