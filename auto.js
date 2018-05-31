@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var router = express.Router();
 
 var sql = require('mysql2');
-
+var i=1;
 router.use('/', function(req,res,next){            
     var token=req.body.token || req.query.token || req.headers['token'] ; 
     if (token) {
